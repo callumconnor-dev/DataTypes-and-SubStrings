@@ -20,3 +20,6 @@ print(str(pi) + " is a " + str(type(pi)))
 earthRound = True # Booleans come in two states, True or False
 earthFlat = False
 print("Is the Earth Round? " +str(earthRound) + "\nIs the Earth Flat? " + str(earthFlat))
+
+#f-String ~ normal strings but even better, use these from here on out
+print(f"The initial of your first name is {firstName[0]}, this is pi {pi}, the earth is flat {earthFlat}")
